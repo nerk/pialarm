@@ -1,6 +1,6 @@
 = pialarm
 
-Send a notification message via Pushover to your smartphone if a button connected to GPIO 11 is pressed.
+Send a notification message via https://pushover.net[Pushover] to your smartphone if a button connected to GPIO 11 is pressed.
 
 ==  Hardware Setup
 
