@@ -1,0 +1,40 @@
+= pialarm
+
+Send a notification message via Pushover to your smartphone if a button connected to GPIO 11 is pressed.
+
+==  Hardware Setup
+
+Connect momentary button and pull-up resistor to GPIO 11:
+
+----
+
+  VCC
+   |
+  ---
+  | |  47K
+  | |
+  ---
+   |
+   |
+   +--------- GPIO 11
+   |
+   |
+   ++ /
+     /   
+   +/
+   |
+   |
+  GND     
+
+----
+
+== Software
+
+Nodejs is required.
+
+* Edit 'start' script and add your token id and user id from your Pushover acccount.
+* Adjust path to location where pialarm is located.
+* Add execution of 'start' to '/etc/rc.local'
+
+
+

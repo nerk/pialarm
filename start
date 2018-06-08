@@ -1,0 +1,6 @@
+# Set token and user from Pushover account
+export PUSHOVER_TOKEN=  your token
+export PUSHOVER_USER=   your user 
+
+
+/usr/bin/node ~/pialarm/index.js &

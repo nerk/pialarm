@@ -1,0 +1,16 @@
+{
+  "name": "pialarm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pushover-notifications": "^1.0.0",
+    "rpi-gpio": "^0.9.1",
+    "underscore": "^1.9.0"
+  }
+}
